@@ -1,7 +1,10 @@
-FROM node:14-slim
+FROM node:alpine AS meu-cigarro-crud-build
+WORKDIR /app
+COPY . .
+RUN npm ci && npm run build
 
-RUN mkdir -p /app
-COPY . /app
-RUN cd /app && npm install
-EXPOSE 4200
-CMD ["ng", "serve", "--host", "0.0.0.0"]
+# stage 2
+
+FROM nginx:alpine
+COPY --from=meu-cigarro-crud-build /app/dist/app-to-run-inside-docker /usr/share/nginx/html
+EXPOSE 80
