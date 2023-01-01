@@ -1,0 +1,18 @@
+version: '3'
+services:
+  front:
+    build: ./frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - back
+    networks:
+      - cigarro-network
+  back:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    networks:
+      - cigarro-network
+networks:
+  cigarro-network:
