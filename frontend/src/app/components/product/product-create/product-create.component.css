@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button{
+    margin: 20px 15px 0px 0px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.file-name {
+    margin-left: 1rem; /* or whatever margin you require */
+}

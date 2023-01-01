@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-title>Novo Cigarro</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome"
+                [(ngModel)] ="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)"
+                [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+
+        <form>
+            <label for="image">Selecione uma imagem:</label>
+            <input type="file" id="image" name="image" (change)="uploadFile($event)">
+          </form>
+          
+
+    </form>
+
+    <button mat-raised-button (click)="createProduct()">
+        Salvar Cigarro
+    </button>
+    
+    <button mat-raised-button (click)="cancela()">
+        Tirar Cigarro
+    </button>
+</mat-card>
