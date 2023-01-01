@@ -1,11 +1,7 @@
-FROM node:12
+FROM node:14-slim
 
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
-COPY . /usr/src/app
-
-RUN npm install
-RUN npm run build
-
+RUN mkdir -p /app
+COPY . /app
+RUN cd /app && npm install
 EXPOSE 4200
-CMD ["npm", "start"]
+CMD ["ng", "serve", "--host", "0.0.0.0"]
