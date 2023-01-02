@@ -7,16 +7,16 @@
 ## Imagens 
 
 ### view list 
-<img src="data/Captura%20de%20tela%202023-01-02%20001800.png" width="300">
+<img src="data/Captura%20de%20tela%202023-01-02%20001800.png" >
 
 ### update -->
-<img src="data/Captura%20de%20tela%202023-01-02%20001856.png" width="300">
+<img src="data/Captura%20de%20tela%202023-01-02%20001856.png">
 
 ### image input -->
-<img src="data/Captura%20de%20tela%202023-01-02%20001925.png" width="300">
+<img src="data/Captura%20de%20tela%202023-01-02%20001925.png" >
 
 ### save -->
-<img src="data/Captura%20de%20tela%202023-01-02%20001936.png" width="300">
+<img src="data/Captura%20de%20tela%202023-01-02%20001936.png">
 
 
 ## Pré-requisitos
