@@ -33,13 +33,14 @@ Para instalar este projeto, siga os seguintes passos:
 Clone o repositório do GitHub:
 
 ```sh
-git clone https://github.com/seu-usuario/crud-com-docker.git
+git clone https://github.com/carlinhoshk/cigarette-crud.git
 ```
 
 Entre no diretório do projeto:
 
 ```sh
-cd crud-com-docker
+cd cigarette-crud
+
 ```
 
 Construa as imagens do Docker usando o Docker Compose:
