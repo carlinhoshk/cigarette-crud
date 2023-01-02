@@ -2,7 +2,7 @@
 
 
 > Um CRUD full-stack basico, com Front em Angular TS e Back Java Spring.
-> O projeto inclui uma aplicação de back-end em Java com Spring Boot e uma aplicação de front-end em Angular.
+> O projeto inclui uma aplicação CREATE, READ, UPDATE, DELETE. De protudos no caso cigarros.
 
 ## Imagens 
 
